@@ -1,0 +1,67 @@
+.spinloader {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    &::after {
+        content: "";
+        width: 100px;
+        height: 100px;
+        border: 10px solid transparent;
+        border-top-color: #009576;
+        border-bottom-color: #009576;
+        border-radius: 50%;
+        -webkit-animation: spinloader 3s forwards;
+        animation: spinloader 3s forwards;
+    }
+    &--full-height {
+        align-items: center;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: 0 auto;
+    }
+}
+
+@keyframes spinloader {
+    from {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    to {
+        transform: rotate(360deg);
+        opacity: 0;
+    }
+}
+
+.animate-card {
+    position: relative;
+    -webkit-animation-name: animate-card;
+    -webkit-animation-duration: 2s;
+    animation-name: animate-card;
+    animation-duration: 2s
+}
+
+@-webkit-keyframes animate-card {
+    from {
+        bottom: -50px;
+        opacity: 0
+    }
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animate-card {
+    from {
+        bottom: -50px;
+        opacity: 0
+    }
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}

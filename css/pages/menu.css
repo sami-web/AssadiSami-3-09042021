@@ -1,0 +1,101 @@
+div#Bloc-page {
+  background-color: #f6f6f6; }
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: Roboto, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin: 0;
+  text-align: left;
+  overflow-x: hidden; }
+
+header div#titre-principal {
+  text-align: center;
+  padding: 15px;
+  background: white;
+  box-shadow: 0 1px 4px #000;
+  border-bottom: 2px solid #f4f4f4;
+  padding: 20px; }
+  header div#titre-principal a i.fas.fa-arrow-left {
+    color: black;
+    width: 50px;
+    font-size: xx-large;
+    position: relative;
+    right: 444px;
+    bottom: 20px; }
+  header div#titre-principal img {
+    height: auto;
+    max-width: 100%; }
+
+.image-entete img {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  margin: auto;
+  text-align: center; }
+.image-entete h1 {
+  width: 100%;
+  font-style: italic;
+  font-weight: 900;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 25px 25px 25px 25px;
+  position: relative;
+  top: -38px;
+  padding: 20px;
+  font-size: 25px; }
+.image-entete i {
+  position: relative;
+  bottom: 83px;
+  left: 95%; }
+  .image-entete i .far {
+    cursor: pointer;
+    top: 20px;
+    position: relative; }
+    .image-entete i .far:hover {
+      color: red; }
+  .image-entete i .fas {
+    cursor: pointer;
+    top: 20px;
+    position: relative; }
+    .image-entete i .fas:hover {
+      color: red; }
+
+.block-item {
+  margin-bottom: 15px;
+  padding: 20px; }
+  .block-item .title::after {
+    display: block;
+    height: 2px;
+    width: 70px;
+    background: #99E2D0;
+    content: " "; }
+  .block-item ul li {
+    background: #fff;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 0px -2px #e7e7e7; }
+    .block-item ul li h2 {
+      margin-bottom: 10px;
+      font-weight: bold; }
+    .block-item ul li span {
+      font-weight: 400; }
+      .block-item ul li span.price {
+        float: right;
+        font-weight: bold; }
+
+.Commander {
+  background: linear-gradient(27deg, #9356DC, #FF79DA 100%);
+  text-decoration: none;
+  padding: 16px;
+  border-radius: 25px;
+  color: white;
+  width: max-content;
+  position: relative;
+  margin: auto;
+  margin-bottom: 10px; }
+
+/*# sourceMappingURL=menu.css.map */

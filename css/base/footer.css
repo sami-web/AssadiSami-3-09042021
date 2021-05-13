@@ -1,0 +1,16 @@
+footer a {
+  text-decoration: none;
+  color: #fff; }
+
+.footer {
+  background: #333;
+  padding: 20px;
+  text-align: center;
+  color: #fff; }
+  .footer__logo {
+    filter: invert(50); }
+
+.footer-icon {
+  margin-right: 15px; }
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,10 @@
+@import "../utils/Variables.scss";
+.custom-button {
+    padding: 16px;
+    display: inline-block;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient( 27deg, $color-secondary, $color-primary 100%);
+    text-align: center;
+}
