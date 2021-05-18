@@ -8,6 +8,8 @@ footer a {
     padding: 20px;
     text-align: center;
     color: #fff;
+    float: left;
+    width: 100%;
     &__logo {
         filter: invert(50);
     }

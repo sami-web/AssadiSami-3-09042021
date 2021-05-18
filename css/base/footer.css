@@ -6,7 +6,9 @@ footer a {
   background: #333;
   padding: 20px;
   text-align: center;
-  color: #fff; }
+  color: #fff;
+  float: left;
+  width: 100%; }
   .footer__logo {
     filter: invert(50); }
 
