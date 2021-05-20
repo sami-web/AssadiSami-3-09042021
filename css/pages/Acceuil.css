@@ -108,8 +108,8 @@ div#restaurant {
     @media (max-width: 991.98px) {
       div#restaurant .item {
         float: none;
-        width: 100%;
-        margin: 0;
+        width: 70%;
+        margin: auto;
         margin-bottom: 15px; } }
     div#restaurant .item .nouveau {
       background: #99e2d0;
