@@ -148,10 +148,10 @@ div#restaurant {
                 display: flex;
                 float: left;
                 display: inline;
-                height: 170px;
+                height: 150px;
                 border-radius: 25px 25px 0px 0px;
                 @include medium-devices {
-                    height: auto;
+                    height: 150px;
                 }
             }
         }
@@ -160,6 +160,9 @@ div#restaurant {
             span {
                 font-size: larger;
                 font-weight: 400;
+            }
+            @include large-devices-only {
+                height: 80px;
             }
         }
         .heart {

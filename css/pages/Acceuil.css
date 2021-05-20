@@ -129,16 +129,19 @@ div#restaurant {
       display: flex;
       float: left;
       display: inline;
-      height: 170px;
+      height: 150px;
       border-radius: 25px 25px 0px 0px; }
       @media (max-width: 991.98px) {
         div#restaurant .item a img {
-          height: auto; } }
+          height: 150px; } }
     div#restaurant .item .name {
       float: left; }
       div#restaurant .item .name span {
         font-size: larger;
         font-weight: 400; }
+      @media (min-width: 992px) and (max-width: 1199.98px) {
+        div#restaurant .item .name {
+          height: 80px; } }
     div#restaurant .item .heart {
       text-align: right; }
     div#restaurant .item p {
